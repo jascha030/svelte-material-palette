@@ -1,0 +1,152 @@
+{
+  "colors": [
+    {
+      "name": "Background",
+      "color": "#292D3E"
+    },
+    {
+      "name": "Foreground",
+      "color": "#A6ACCD"
+    },
+    {
+      "name": "Text",
+      "color": "#676E95"
+    },
+    {
+      "name": "Selection Background",
+      "color": "#717CB470"
+    },
+    {
+      "name": "Selection Foreground",
+      "color": "#FFFFFF"
+    },
+    {
+      "name": "Buttons",
+      "color": "#303348"
+    },
+    {
+      "name": "Second Background",
+      "color": "#34324a"
+    },
+    {
+      "name": "Disabled",
+      "color": "#515772"
+    },
+    {
+      "name": "Contrast",
+      "color": "#202331"
+    },
+    {
+      "name": "Active",
+      "color": "#414863"
+    },
+    {
+      "name": "Border",
+      "color": "#2b2a3e"
+    },
+    {
+      "name": "Highlight",
+      "color": "#444267"
+    },
+    {
+      "name": "Tree",
+      "color": "#676E95"
+    },
+    {
+      "name": "Notifications",
+      "color": "#202331"
+    },
+    {
+      "name": "Accent Color",
+      "color": "#ab47bc"
+    },
+    {
+      "name": "Excluded Files Color",
+      "color": "#2f2e43"
+    },
+    {
+      "name": "Green Color",
+      "color": "#c3e88d"
+    },
+    {
+      "name": "Yellow Color",
+      "color": "#ffcb6b"
+    },
+    {
+      "name": "Blue Color",
+      "color": "#82aaff"
+    },
+    {
+      "name": "Red Color",
+      "color": "#f07178"
+    },
+    {
+      "name": "Purple Color",
+      "color": "#c792ea"
+    },
+    {
+      "name": "Orange Color",
+      "color": "#f78c6c"
+    },
+    {
+      "name": "Cyan Color",
+      "color": "#89ddff"
+    },
+    {
+      "name": "Gray Color",
+      "color": "#676E95"
+    },
+    {
+      "name": "White Black Color",
+      "color": "#eeffff"
+    },
+    {
+      "name": "Error Color",
+      "color": "#ff5370"
+    },
+    {
+      "name": "Comments Color",
+      "color": "#676E95"
+    },
+    {
+      "name": "Variables Color",
+      "color": "#eeffff"
+    },
+    {
+      "name": "Links Color",
+      "color": "#80cbc4"
+    },
+    {
+      "name": "Functions Color",
+      "color": "#82aaff"
+    },
+    {
+      "name": "Keywords Color",
+      "color": "#c792ea"
+    },
+    {
+      "name": "Tags Color",
+      "color": "#f07178"
+    },
+    {
+      "name": "Strings Color",
+      "color": "#c3e88d"
+    },
+    {
+      "name": "Operators Color",
+      "color": "#89ddff"
+    },
+    {
+      "name": "Attributes Color",
+      "color": "#ffcb6b"
+    },
+    {
+      "name": "Numbers Color",
+      "color": "#f78c6c"
+    },
+    {
+      "name": "Parameters Color",
+      "color": "#f78c6c"
+    }
+  ]
+}
