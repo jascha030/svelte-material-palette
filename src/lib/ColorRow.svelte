@@ -3,15 +3,7 @@
     export let foreground = '#fff';
     export let name = 'name';
     export let color = '#444444';
-    $: rowType = isReadable(color, background) ? 'colorRow' : 'colorRow inverted';
-
-    const open = (event) => {
-        let input = event.target.querySelector('input');
-
-        if (input) {
-            input.click();
-        }
-    }
+    $: inverted = !isReadable(color, background);
 
     const getLuminance = (hexColor) => {
         const hex = hexColor.replace('#', '');
@@ -22,7 +14,7 @@
         const b = (rgb >> 0) & 0xff;
 
         return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-    }
+    };
 
     const isReadable = (hexColor, background) => {
         const luminance = getLuminance(hexColor);
@@ -30,13 +22,17 @@
 
         const rest = luminance - compare;
         return rest > 40;
-    }
+    };
 </script>
 
-<div on:click={e => open(e)} class="{rowType}" style="--theme-color: {color}; --theme-foreground: {foreground}">
+<label
+    class="colorRow"
+    class:inverted
+    style="--theme-color: {color}; --theme-foreground: {foreground}"
+>
     {name}: {color}
-    <input type="color" bind:value={color}>
-</div>
+    <input type="color" bind:value={color} />
+</label>
 
 <style>
     .colorRow {
@@ -49,14 +45,15 @@
         cursor: pointer;
         padding: 0.5rem;
         text-align: left;
+        display: block;
     }
 
-    .colorRow.inverted {
+    .inverted {
         color: var(--theme-foreground);
         background: var(--theme-color);
     }
 
-    input[type=color] {
+    input[type='color'] {
         background: none;
         border: 0;
         position: absolute;
