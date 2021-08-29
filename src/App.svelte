@@ -1,7 +1,5 @@
 <script>
   import Palette from "./lib/Palette.svelte";
-  import path from 'path';
-
   let theme = "theme.json";
 </script>
 
